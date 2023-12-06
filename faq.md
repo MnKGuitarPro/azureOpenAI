@@ -9,8 +9,6 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
   **Respuesta**: \
   Los formatos de archivos aceptados por el chatGPT están definidos por el servicio encargado de realizar la tarea de OCR (Optical Character Recognition). \
   En nuestro caso, el servicio de OCR que chatGPT está utilizando se llama **Document Intelligence** y de momento Microsoft (quien mantiene el servicio) tiene declarados [en su documentación oficial](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-read?view=doc-intel-4.0.0#input-requirements) **once tipos** de archivos, los cuales son:
-
-\
     - Para documentos
         - PDF
     - Para formatos de tipo imagen
