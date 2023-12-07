@@ -42,6 +42,10 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
   ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat007.png?raw=true) \
   Al dar clic al ícono para agregar más documentos, se abrirá un panel al lado derecho que nos permitirá agregar más documentos (muy similar al del inicio de la conversación con un archivo). En este menú también se muestran mensajes de los estados de subida e indexación del archivo y, una vez el archivo ha sido completamente indexado, podemos subir más archivos hasta completar el contexto que necesitamos \
   ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true)
+3. **¿Es seguro subir documentos a este chat?** \
+  \
+  **Respuesta**: \
+  Sí. A diferencia del "chatgpt" público que todo el mundo utiliza, esta versión es privada y utiliza servicios que se encuentran en nuestra infraestructura. Por lo tanto, es seguro utilizar esta versión de chat para conversar en base al contenido de documentos incluso cuando su contenido sea privado
 
 ## 👥 FAQ - Subir usuarios al chatGPT 👨🏻‍💻
 
