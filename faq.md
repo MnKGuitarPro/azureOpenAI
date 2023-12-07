@@ -2,6 +2,8 @@
 
 A continuación se detallan algunas de las preguntas/respuestas más frecuentes
 
+---
+
 ## 📚 FAQ - Uso de archivos/documentos 📄
 
 ### 1. **¿Cuáles formatos son aceptados por el chatGPT?**
@@ -44,11 +46,15 @@ Al dar clic al ícono para agregar más documentos, se abrirá un panel al lado 
 **Respuesta**: \
 Sí. A diferencia del "chatgpt" público que todo el mundo utiliza, esta versión es privada y utiliza servicios que se encuentran en nuestra infraestructura. Por lo tanto, es seguro utilizar esta versión de chat para conversar en base al contenido de documentos incluso cuando su contenido sea privado
 
+---
+
 ## 👥 FAQ - Subir usuarios al chatGPT 👨🏻‍💻
 
 ### 1. **¿Cómo me puedo agregar a mí o a alguien más al piloto?**
 **Respuesta**: \
 Para agregar a alguien más al chat, sólo le debes pedir (o en su defecto, explicar) que siga los pasos descritos [en el siguiente documento de Confluence](https://bcibank.atlassian.net/wiki/spaces/AT/pages/3950773388)
+
+---
 
 ## 💡 FAQ - Alcance del chatGPT interno 🎨
 
