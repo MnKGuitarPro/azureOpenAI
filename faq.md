@@ -27,8 +27,8 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
   \
   **Respuesta**: \
   1. Primero, al iniciar un nuevo chat se debe dar clic a la opción "Archivo" y seleccionar un archivo dando clic a la sección que dice "Elegir archivo" donde, una vez seleccionado, se debe dar clic al botón que dice "Subir"
-\
-![](https://raw.githubusercontent.com/MnKGuitarPro/azureOpenAI/main/img/chat001.png)
+    \
+    ![](https://raw.githubusercontent.com/MnKGuitarPro/azureOpenAI/main/img/chat001.png)
   2. Se mostrará el progreso del procesamiento del archivo en dos etapas, la primera corresponde a **subir** el archivo y la segunda corresponde a **indexar** al archivo (procesarlo, en otras palabras)
 
 ## 👥 FAQ - Subir usuarios al chatGPT 👨🏻‍💻
