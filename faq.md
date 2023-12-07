@@ -35,9 +35,13 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
   Cuando `X` es igual a `Y` el archivo se ha subido completamente apareciendo un mensaje de éxito en la esquina inferior derecha que dice "Subida de archivo 'nombre-de-archivo' subido exitosamente." \
   ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat004.png?raw=true) \
   Con esto, ya podemos chatear usando como base de conocimiento el contenido del archivo que acabamos de subir. Sólo debemos interactuar en el campo de texto de la parte inferior que dice "Escribe un mensaje" y comenzaremos un hilo de conversación. Cabe mencionar que este tipo de interacciones es muy directa por lo que si nuestro mensaje no tiene relación o sus palabras no se mencionan en ninguna sección del documento subido, es probable que el chat responda indicando que no tiene contexto. Un tip es comenzar la conversación solicitando un resumen del contenido, lo que hará el chat comience una conversación coherente. Durante el proceso de generación de texto verán que en determinado momento el chat escribe algo como `{% citation items=[{name:"filename 1",id:"file id"}, {name:"filename 2",id:"file id"}] /%}`, no hay que entrar en pánico, es sólo la generación de botones que les permitirán ir a las secciones específicas que el chat utilizó para responder las preguntas o interacciones que nosotros tengamos \
-![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat005.png?raw=true) \
-\
-![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat006.png?raw=true) \
+  ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat005.png?raw=true) \
+  \
+  ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat006.png?raw=true) \
+  Una feature que se agregó es la de poder utilizar varios documentos para con ellos formar un único contexto que nuestro chat puede utilizar como base de sus respuestas. Para agregar un nuevo documento al hilo que ya tenemos creado, sólo se debe dar clic al ícono de 📄 que se encuentra al lado izquierdo del campo que utilizamos para escribir nuestros mensajes \
+  ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat007.png?raw=true) \
+  Al dar clic al ícono para agregar más documentos, se abrirá un panel al lado derecho que nos permitirá agregar más documentos (muy similar al del inicio de la conversación con un archivo). En este menú también se muestran mensajes de los estados de subida e indexación del archivo y, una vez el archivo ha sido completamente indexado, podemos subir más archivos hasta completar el contexto que necesitamos \
+  ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true)
 
 ## 👥 FAQ - Subir usuarios al chatGPT 👨🏻‍💻
 
