@@ -37,9 +37,10 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
   \
   **Respuesta**: \
   No. Se debe tener muy en claro que el **caso de uso** que resuelve el presente chat está conformado por dos partes principales:
-    1. Poder chatear contra un modelo de GPT-4 usando la base de conocimiento de Microsoft (detalles de hasta cuando está actualizada [en el siguiente enlace](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-4-and-gpt-4-turbo-preview-models))
+    1. Poder chatear contra un modelo de GPT-4 usando la base de conocimiento de Microsoft (detalles de hasta cuando está actualizada [en el siguiente enlace](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-4-and-gpt-4-turbo-preview-models), nosotros estamos utilizando la versión `gpt-4-32k (0613)` que está actualizada hasta Septiembre del 2021, pero a penas tengamos acceso al modelo `gpt-4 (1106)` que está actualizado hasta abril del 2023, lo anunciaremos en la sección de ["Novedades"](https://chatgpt.bci.cl/change-log))
     2. Poder chatear contra un [modelo de Embeddings](https://learn.microsoft.com/en-us/azure/ai-services/openai/tutorials/embeddings), lo que permite chatear usando como base el contexto provisto por archivos o documentos
   \
-  Otros casos de uso distintos a los mencionados, como por ejemplo integrar esta solución con otras, implementar agentes o bots, o que este chat realice cualquier acción distinta a las dos anteriormente mencionadas se debe implementar como una 
-  solución que satisfaga a dicho caso de uso. Lo anterior no implica que este chat siga evolucionando y teniendo mejoras o nuevas features, pero siempre esas mejoras estarán relacionadas a satisfacer el caso de uso descrito en los dos puntos 
-  anteriores
+  \
+Otros casos de uso distintos a los mencionados, como por ejemplo integrar esta solución con otras, implementar agentes o bots, o que este chat realice cualquier acción distinta a las dos anteriormente mencionadas se debe implementar como una 
+solución que satisfaga a dicho caso de uso. Lo anterior no implica que este chat siga evolucionando y teniendo mejoras o nuevas features, pero siempre esas mejoras estarán relacionadas a satisfacer el caso de uso descrito en los dos puntos 
+anteriores
