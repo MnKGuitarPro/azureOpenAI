@@ -28,7 +28,16 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
   **Respuesta**: \
   Primero, al iniciar un nuevo chat se debe dar clic a la opción "Archivo" y seleccionar un archivo dando clic a la sección que dice "Elegir archivo" donde, una vez seleccionado, se debe dar clic al botón que dice "Subir" \
   ![](https://raw.githubusercontent.com/MnKGuitarPro/azureOpenAI/main/img/chat001.png) \
-  Se mostrará el progreso del procesamiento del archivo en dos etapas, la primera corresponde a **subir** el archivo y la segunda corresponde a **indexar** al archivo (procesarlo, en otras palabras)
+  Se mostrará el progreso del procesamiento del archivo en dos etapas, la primera corresponde a **subir** el archivo y la segunda corresponde a **indexar** al archivo (procesarlo, en otras palabras). La primer etapa (subir el archivo) se muestra en un mensaje de estado que dice "Subiendo documento...", como se muestra en la siguiente imagen \
+  ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat002.png?raw=true) \
+  Respecto de la segunda etapa (indexar el archivo), también se muestra un mensaje de estado que dice "Indexando archivo [X]/[Y]" donde `X` indica la parte que se está subiendo en ese momento y `Y` el total de partes que se deben subir \
+  ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat003.png?raw=true) \
+  Cuando `X` es igual a `Y` el archivo se ha subido completamente apareciendo un mensaje de éxito en la esquina inferior derecha que dice "Subida de archivo 'nombre-de-archivo' subido exitosamente." \
+  ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat004.png?raw=true) \
+  Con esto, ya podemos chatear usando como base de conocimiento el contenido del archivo que acabamos de subir. Sólo debemos interactuar en el campo de texto de la parte inferior que dice "Escribe un mensaje" y comenzaremos un hilo de conversación. Cabe mencionar que este tipo de interacciones es muy directa por lo que si nuestro mensaje no tiene relación o sus palabras no se mencionan en ninguna sección del documento subido, es probable que el chat responda indicando que no tiene contexto. Un tip es comenzar la conversación solicitando un resumen del contenido, lo que hará el chat comience una conversación coherente. Durante el proceso de generación de texto verán que en determinado momento el chat escribe algo como `{% citation items=[{name:"filename 1",id:"file id"}, {name:"filename 2",id:"file id"}] /%}`, no hay que entrar en pánico, es sólo la generación de botones que les permitirán ir a las secciones específicas que el chat utilizó para responder las preguntas o interacciones que nosotros tengamos \
+![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat005.png?raw=true) \
+\
+![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat006.png?raw=true) \
 
 ## 👥 FAQ - Subir usuarios al chatGPT 👨🏻‍💻
 
