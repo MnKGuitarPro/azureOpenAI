@@ -5,7 +5,6 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
 ## 📚 FAQ - Uso de archivos/documentos 📄
 
 ### 1. **¿Cuáles formatos son aceptados por el chatGPT?**
-  \
   **Respuesta**: \
   Los formatos de archivos aceptados por el chatGPT están definidos por el servicio encargado de realizar la tarea de OCR (Optical Character Recognition). \
   En nuestro caso, el servicio de OCR que chatGPT está utilizando se llama **Document Intelligence** y de momento Microsoft (quien mantiene el servicio) tiene declarados [en su documentación oficial](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-read?view=doc-intel-4.0.0#input-requirements) **once tipos** de archivos, los cuales son:
@@ -24,7 +23,6 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
         3. PPTX (documentos de tipo Power Point)
         4. HTML (documentos de tipo Web)
 ### 2. **¿Cómo puedo chatear utilizando uno o varios documentos?**
-  \
   **Respuesta**: \
   Primero, al iniciar un nuevo chat se debe dar clic a la opción "Archivo" y seleccionar un archivo dando clic a la sección que dice "Elegir archivo" donde, una vez seleccionado, se debe dar clic al botón que dice "Subir" \
   ![](https://raw.githubusercontent.com/MnKGuitarPro/azureOpenAI/main/img/chat001.png) \
@@ -43,7 +41,6 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
   Al dar clic al ícono para agregar más documentos, se abrirá un panel al lado derecho que nos permitirá agregar más documentos (muy similar al del inicio de la conversación con un archivo). En este menú también se muestran mensajes de los estados de subida e indexación del archivo y, una vez el archivo ha sido completamente indexado, podemos subir más archivos hasta completar el contexto que necesitamos \
   ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true)
 ### 3. **¿Es seguro subir documentos a este chat?**
-  \
   **Respuesta**: \
   Sí. A diferencia del "chatgpt" público que todo el mundo utiliza, esta versión es privada y utiliza servicios que se encuentran en nuestra infraestructura. Por lo tanto, es seguro utilizar esta versión de chat para conversar en base al contenido de documentos incluso cuando su contenido sea privado
 
