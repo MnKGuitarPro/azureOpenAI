@@ -23,8 +23,8 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
     1. DOCX (documentos de tipo Word)
     2. XLSX (documentos de tipo Excel)
     3. PPTX (documentos de tipo Power Point)
-    4. HTML (documentos de tipo Web)
-\
+    4. HTML (documentos de tipo Web) \
+
 ### 2. **¿Cómo puedo chatear utilizando uno o varios documentos?**
 **Respuesta**: \
 Primero, al iniciar un nuevo chat se debe dar clic a la opción "Archivo" y seleccionar un archivo dando clic a la sección que dice "Elegir archivo" donde, una vez seleccionado, se debe dar clic al botón que dice "Subir" \
@@ -42,7 +42,8 @@ Con esto, ya podemos chatear usando como base de conocimiento el contenido del a
 Una feature que se agregó es la de poder utilizar varios documentos para con ellos formar un único contexto que nuestro chat puede utilizar como base de sus respuestas. Para agregar un nuevo documento al hilo que ya tenemos creado, sólo se debe dar clic al ícono de 📄 que se encuentra al lado izquierdo del campo que utilizamos para escribir nuestros mensajes \
 ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat007.png?raw=true) \
 Al dar clic al ícono para agregar más documentos, se abrirá un panel al lado derecho que nos permitirá agregar más documentos (muy similar al del inicio de la conversación con un archivo). En este menú también se muestran mensajes de los estados de subida e indexación del archivo y, una vez el archivo ha sido completamente indexado, podemos subir más archivos hasta completar el contexto que necesitemos \
-![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true)
+![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true) \
+
 ### 3. **¿Es seguro subir documentos a este chat?**
 **Respuesta**: \
 Sí. A diferencia del "chatgpt" público que todo el mundo utiliza, esta versión es privada y utiliza servicios que se encuentran en nuestra infraestructura. Por lo tanto, es seguro utilizar esta versión de chat para conversar en base al contenido de documentos incluso cuando su contenido sea privado
