@@ -88,7 +88,8 @@ El error indica lo siguiente:
 Para poder entender a cabalidad este mensaje de error, se necesita definir algunos conceptos relacionados a los límites del servicio de Azure OpenAI:
 - **Token**: Como indica la [documentación de Microsoft](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview#text-tokens), un 'token' es lo que permite a Azure OpenAI procesar un texto. Para ello considera como un token a palabras cortas y sencillas como "pera", "hola" o "adiós", mientras que palabras más complejas como "hamburguesa" la divide en sílabas de forma que dicha palabra está compuesta por cuatro tokens ("ham", "bur", "gue" y "sa")
 - **Tokens al interactuar con el chat**: Entendiendo que un 'token' es una palabra, o sílabas de palabras que permiten procesar un texto, al interactuar con chatGPT Bci el total de tokens utilizados es la suma de: los tokens del texto que tú ingresas como usuario, más la suma de tokens de la respuesta del chat, más los tokens que se utilizan como parámetros internos para el correcto funcionamiento. Por dar un ejemplo, si mi interacción con el chat es la siguiente:
-\ 
+
+
 ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat010.png?raw=true) \
 Esta interacción utiliza 23 tokens en total (13 tokens internos, uno para la palabra "hola" y nueve para la respuesta del chat). En cambio, si realizamos la siguiente interacción con el chat:
 ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat011.png?raw=true) \
