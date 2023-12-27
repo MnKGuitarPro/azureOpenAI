@@ -82,8 +82,8 @@ solución que satisfaga a dicho caso de uso de forma específica. Lo anterior no
 Es posible que al trabajar ya sea con archivos, o con la base de contexto mantenida por Microsoft se reciba un error como el de la siguiente imagen: \
 ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat009.png?raw=true) \
 El error indica lo siguiente:
-> El largo máximo para el contexto de este modelo es de 8.192 tokens. Sin embargo, sus mensajes dieron como resultado <número> tokens. Por favor, reduzca el largo de los mensajes \
-
+> El largo máximo para el contexto de este modelo es de 8.192 tokens. Sin embargo, sus mensajes dieron como resultado <número> tokens. Por favor, reduzca el largo de los mensajes
+\ 
 Para poder entender a cabalidad este mensaje de error, se necesita definir algunos conceptos relacionados a los límites del servicio de Azure OpenAI:
 - **Token**: Como indica la [documentación de Microsoft](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview#text-tokens), un 'token' es lo que permite a Azure OpenAI procesar un texto. Para ello considera como un token a palabras cortas y sencillas como "pera", "hola" o "adiós", mientras que palabras más complejas como "hamburguesa" la divide en sílabas de forma que dicha palabra está compuesta por cuatro tokens ("ham", "bur", "gue" y "sa")
 - **Tokens al interactuar con el chat**: Entendiendo que un 'token' es una palabra, o sílabas de palabras que permiten procesar un texto, al interactuar con chatGPT Bci el total de tokens utilizados es la suma de: los tokens del texto que tú ingresas como usuario, más la suma de tokens de la respuesta del chat, más los tokens que se utilizan como parámetros internos para el correcto funcionamiento. Por dar un ejemplo, si mi interacción con el chat es la siguiente:
