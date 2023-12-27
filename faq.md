@@ -23,7 +23,7 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
     1. DOCX (documentos de tipo Word)
     2. XLSX (documentos de tipo Excel)
     3. PPTX (documentos de tipo Power Point)
-    4. HTML (documentos de tipo Web) \
+    4. HTML (documentos de tipo Web)
 
 ### 2. **¿Cómo puedo chatear utilizando uno o varios documentos?**
 **Respuesta**: \
@@ -41,13 +41,15 @@ Con esto, ya podemos chatear usando como base de conocimiento el contenido del a
 Una feature que se agregó es la de poder utilizar varios documentos para con ellos formar un único contexto que nuestro chat puede utilizar como base de sus respuestas. Para agregar un nuevo documento al hilo que ya tenemos creado, sólo se debe dar clic al ícono de 📄 que se encuentra al lado izquierdo del campo que utilizamos para escribir nuestros mensajes \
 ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat007.png?raw=true) \
 Al dar clic al ícono para agregar más documentos, se abrirá un panel al lado derecho que nos permitirá agregar más documentos (muy similar al del inicio de la conversación con un archivo). En este menú también se muestran mensajes de los estados de subida e indexación (o procesamiento) del archivo y, una vez el archivo ha sido completamente indexado, podemos subir más archivos hasta completar el contexto que necesitemos \
-![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true) \
+![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true)
 
 ### 3. **¿Es seguro subir documentos a este chat?**
 **Respuesta**: \
 Sí. A diferencia del "chatgpt" público [que se accede a través de Internet](https://chat.openai.com/) y que tenemos bloqueado internamente, esta versión es privada y utiliza servicios que se encuentran en nuestra infraestructura tecnológica. Por lo tanto, es seguro utilizar esta versión de chat para conversar en base al contenido de documentos incluso cuando ese contenido es de índole privado. \
-Una característica importante de mencionar es que el contexto de conversación que un usuario tenga con chatGPT Bci no se puede compartir con otro usuario. Por ende, si la usuaria 'María González' sube un archivo cuyo contenido tiene relación a 'cómo hacer violines' y 'Juan Pérez' consulta al chatGPT Bci '¿cómo puedo hacer un violín?' no se utilizará el contenido subido por 'María González', ya que ese contenido es sólo accesible por el hilo de conversación que ella ha creado. \ 
-Es posible que un usuario quiera la característica o funcionalidad de tener "contextos compartidos" o sea, que un usuario pueda conversar con el contenido o contexto que otro usuario tiene o ha creado. Esta funcionalidad puede permitir que dos usuarios no tengan que subir el mismo documento dos veces, o poder tener acceso colaborativo a una conversación enriquecida por la interacción entre dos o más usuarios. Sin embargo, esa funcionalidad o característica pasa por alto la privacidad, y para el caso de chatGPT Bci la privacidad y seguridad de las conversaciones que los usuarios tengan es fundamental. Dado lo anterior, no se implementarán funcionalidades de contextos compartidos y estos seguirán siendo privados \
+
+Una característica importante de mencionar es que el contexto de conversación que un usuario tenga con chatGPT Bci no se puede compartir con otro usuario. Por ende, si la usuaria 'María González' sube un archivo cuyo contenido tiene relación a 'cómo hacer violines' y 'Juan Pérez' consulta al chatGPT Bci '¿cómo puedo hacer un violín?' no se utilizará el contenido subido por 'María González', ya que ese contenido es sólo accesible por el hilo de conversación que ella ha creado. \
+
+Es posible que un usuario quiera la característica o funcionalidad de tener "contextos compartidos" o sea, que un usuario pueda conversar con el contenido o contexto que otro usuario tiene o ha creado. Esta funcionalidad puede permitir que dos usuarios no tengan que subir el mismo documento dos veces, o poder tener acceso colaborativo a una conversación enriquecida por la interacción entre dos o más usuarios. Sin embargo, esa funcionalidad o característica pasa por alto la privacidad, y para el caso de chatGPT Bci la privacidad y seguridad de las conversaciones que los usuarios tengan es fundamental. Dado lo anterior, no se implementarán funcionalidades de contextos compartidos y estos seguirán siendo privados
 
 ---
 
@@ -56,7 +58,7 @@ Es posible que un usuario quiera la característica o funcionalidad de tener "co
 ### 1. **¿Cómo me puedo agregar a mí o a alguien más al piloto?**
 **Respuesta**: \
 Para agregar a alguien más al chat, sólo le debes pedir (o en su defecto, explicar) que siga los pasos descritos [en el siguiente documento de Confluence](https://bcibank.atlassian.net/wiki/spaces/AT/pages/3950773388). \
-Si tienes alguna duda, puedes contactar a [Daniel Pavez Sandoval vía chat de Google](https://mail.google.com/mail/u/0/#chat/home) o bien [vía Slack](https://bci.enterprise.slack.com/archives/D01QV5BP8PN) \
+Si tienes alguna duda, puedes contactar a [Daniel Pavez Sandoval vía chat de Google](https://mail.google.com/mail/u/0/#chat/home) o bien [vía Slack](https://bci.enterprise.slack.com/archives/D01QV5BP8PN)
 
 ---
 
@@ -69,4 +71,27 @@ No. Se debe tener claro que el **caso de uso** que resuelve el presente chat est
 2. Poder chatear contra un [modelo de Embeddings](https://learn.microsoft.com/en-us/azure/ai-services/openai/tutorials/embeddings), lo que permite chatear usando como base el contexto provisto por archivos o documentos que un usuario sube al chatGPT Bci \
 \
 Otros casos de uso distintos a los mencionados, como por ejemplo integrar esta solución con otras, implementar agentes o bots, o que este chat realice cualquier acción distinta a las dos anteriormente mencionadas se debe implementar como una 
-solución que satisfaga a dicho caso de uso de forma específica. Lo anterior no implica que chatGPT Bci no seguirá evolucionando, teniendo mejoras o nuevas funcionalidades o características, pero se debe considerar que siempre estas mejoras estarán relacionadas a satisfacer el caso de uso descrito en los dos puntos anteriores \
+solución que satisfaga a dicho caso de uso de forma específica. Lo anterior no implica que chatGPT Bci no seguirá evolucionando, teniendo mejoras o nuevas funcionalidades o características, pero se debe considerar que siempre estas mejoras estarán relacionadas a satisfacer el caso de uso descrito en los dos puntos anteriores
+
+---
+
+## 🚧 FAQ - Límites y errores 🚨
+
+### 1. **¿Qué significa el error de límite de 'tokens'?**
+**Respuesta**: \
+Es posible que al trabajar ya sea con archivos, o con la base de contexto mantenida por Microsoft se reciba un error como el de la siguiente imagen: \
+![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat009.png?raw=true) \
+El error indica lo siguiente: \
+> El largo máximo para el contexto de este modelo es de 8.192 tokens. Sin embargo, sus mensajes dieron como resultado <número> tokens. Por favor, reduzca el largo de los mensajes
+Para poder entender a cabalidad este mensaje de error, se necesita definir algunos conceptos relacionados a los límites del servicio de Azure OpenAI:
+- **Token**: Como indica la [documentación de Microsoft](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview#text-tokens), un 'token' es lo que permite a Azure OpenAI procesar un texto. Para ello considera como un token a palabras cortas y sencillas como "pera", "hola" o "adiós", mientras que palabras más complejas como "hamburguesa" la divide en sílabas de forma que dicha palabra está compuesta por cuatro tokens ("ham", "bur", "gue" y "sa").
+- **Tokens al interactuar con el chat**: Entendiendo que un 'token' es una palabra, o sílabas de palabras que permiten procesar un texto, al interactuar con chatGPT Bci el total de tokens utilizados es la suma de: los tokens del texto que tú ingresas como usuario, más la suma de tokens de la respuesta del chat, más los tokens que se utilizan como parámetros internos para el correcto funcionamiento. Por dar un ejemplo, si mi interacción con el chat es la siguiente:
+![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat010.png?raw=true) \
+Esta interacción utiliza 23 tokens en total (13 tokens internos, uno para la palabra "hola" y nueve para la respuesta del chat). En cambio, si realizamos la siguiente interacción con el chat:
+![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat011.png?raw=true) \
+Tenemos una interacción que usa en total 419 tokens (13 tokens internos más los 406 entre nuestro mensaje y la respuesta del chat). Con lo anterior debemos tener en cuenta que cada interacción que tengamos tiene como límite 8192 tokens, y que mientras más grande sea nuestra interacción y la correspondiente respuesta, es posible que alcancemos el límite máximo definido por el servicio de Microsoft
+- **TPM y RPM**: Es probable que nunca se encuentren con estas dos siglas pero, vale la pena entender de qué se trata sólo para resolver dudas. TPM significa 'tokens per minute' que para el caso de [chatGPT Bci](https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits#regional-quota-limits) son 20.000, es decir, entre todas y todos los usuarios de chatGPT Bci, en una ventana de sesenta segundos, podemos consumir hasta veinte mil tokens. La otra sigla, RPM, significa 'requests per minute' y hace referencia a la cantidad de interacciones que podemos tener con el chatGPT Bci en una ventana de sesenta segundos (entre todas y todos los usuarios que estemos activos durante esa ventana de tiempo) que para nuestro caso corresponde a 120 interacciones en sesenta segundos. \
+En conclusión, el servicio de Microsoft sobre el cual está creado chatGPT Bci posee límites que bajo ciertas condiciones podemos presenciar, los cuales en resumen son:
+1. Que durante una interacción la suma de los tokens de nuestra pregunta más su respuesta exceda los 8.192 tokens
+2. Que durante una ventana de sesenta segundos, entre todas las y los usuarios que estén interactuando con chatGPT Bci se consuman más de 20.000 tokens
+3. Que durante una ventana de sesenta segundos, entre todas las y los usuarios que estén interactuando con chatGPT Bci se realicen más de 120 interacciones
