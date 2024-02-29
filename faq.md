@@ -6,7 +6,19 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
 
 ## 📚 FAQ - Uso de archivos/documentos 📄
 
-### 1. **¿Cuáles formatos son aceptados por el chatGPT?**
+### 1. **¿Puedo subir archivos si he iniciado una conversación sin haber subido uno?**
+  **Respuesta**: \
+  Es importante destacar que al interactuar con el chatGPT Bci tenemos dos opciones:
+  1. Chatear usando la base de conocimiento de Microsoft
+  2. Chatear usando el contenido de uno o más archivos subidos al chat
+
+  Si la conversación se inicia sin subir un archivo, entonces esta conversación utilizará la base de conocimiento de Microsoft y a ella no podremos agregar archivos, documentos o imágenes. Si utilizamos este tipo de conversación podemos preguntar al chatGPT Bci lo que queramos, como sobre música, arte, historia, deportes, actualidad, tecnología, etc. Pero, no podremos hacer preguntas sobre el contenido de algún archivo, documento o imagen específicos.
+  
+  Si por el contrario iniciamos una conversación tras haber subido uno o más documentos, la conversación usará como base de conocimiento el contenido de esos archivos, documentos o imágenes y por tanto estamos limitados a realizar preguntas o interacciones relacionadas a ese contenido. Por ejemplo, si subimos un documento de la bibliogragía de la banda The Beatles el chatGPT Bci no tendrá la capacidad de contestarnos de forma apropiada preguntas sobre el tenista Nicolás Massú.
+
+  Por tanto, es relevante la forma en que iniciamos la conversación pues aquello puede ayudarnos o limitarnos respecto a la interacción que deseamos tener.
+
+### 2. **¿Cuáles formatos son aceptados por el chatGPT?**
   **Respuesta**: \
   Los formatos de archivos y documentos aceptados por chatGPT Bci están definidos por el servicio encargado de realizar la tarea de OCR (Optical Character Recognition, o 'reconocimiento óptico de caracteres'). \
   En nuestro caso, el servicio de OCR utilizado se llama **Document Intelligence** y de momento Microsoft (quien mantiene el servicio) tiene declarados [en su documentación oficial](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-read?view=doc-intel-4.0.0#input-requirements) **once tipos** de formatos de archivos, los cuales son:
@@ -25,7 +37,7 @@ A continuación se detallan algunas de las preguntas/respuestas más frecuentes
     3. PPTX (documentos de tipo Power Point)
     4. HTML (documentos de tipo Web)
 
-### 2. **¿Cómo puedo chatear utilizando uno o varios documentos?**
+### 3. **¿Cómo puedo chatear utilizando uno o varios documentos?**
 **Respuesta**: \
 Primero, al iniciar un nuevo chat se debe dar clic a la opción "Archivo" y seleccionar un archivo dando clic a la sección que dice "Elegir archivo" donde, una vez seleccionado, se debe dar clic al botón que dice "Subir" \
 ![](https://raw.githubusercontent.com/MnKGuitarPro/azureOpenAI/main/img/chat001.png) \
@@ -43,7 +55,7 @@ Una feature que se agregó es la de poder utilizar varios documentos para con el
 Al dar clic al ícono para agregar más documentos, se abrirá un panel al lado derecho que nos permitirá agregar más documentos (muy similar al del inicio de la conversación con un archivo). En este menú también se muestran mensajes de los estados de subida e indexación (o procesamiento) del archivo y, una vez el archivo ha sido completamente indexado, podemos subir más archivos hasta completar el contexto que necesitemos \
 ![](https://github.com/MnKGuitarPro/azureOpenAI/blob/main/img/chat008.png?raw=true)
 
-### 3. **¿Es seguro subir documentos a este chat?**
+### 4. **¿Es seguro subir documentos a este chat?**
 **Respuesta**: \
 Sí. A diferencia del "chatgpt" público [que se accede a través de Internet](https://chat.openai.com/) y que tenemos bloqueado internamente, esta versión es privada y utiliza servicios que se encuentran en nuestra infraestructura tecnológica. Por lo tanto, es seguro utilizar esta versión de chat para conversar en base al contenido de documentos incluso cuando ese contenido es de índole privado.
 
